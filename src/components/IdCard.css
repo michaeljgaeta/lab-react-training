@@ -1,3 +1,15 @@
-.id-container {
-  border: 5px solid;
+.id-card {
+  margin: 1em auto;
+  display: flex;
+  border: 1px solid black;
+  width: 35em;
+}
+.id-card > img {
+  width: 15em;
+  margin: 5px;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

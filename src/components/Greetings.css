@@ -1,0 +1,8 @@
+.greetings-container {
+  border: 2px solid;
+  margin: 1em auto;
+  display: flex;
+  border: 1px solid black;
+  width: 35em;
+  align-items: flex-start;
+}
