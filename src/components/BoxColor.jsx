@@ -6,7 +6,7 @@ const BoxColor = (props) => {
   return (
     <div
       className="greetings-container"
-      style={{ BackgroundColor: `rbg(${r}, ${g}, ${b})` }}
+      style={{ BackgroundColor: `rgb(${r}, ${g}, ${b})` }}
     >
       <p>
         rgb({r},{g},{b}
