@@ -32,3 +32,12 @@ class Dice extends React.Component {
 }
 
 export default Dice;*/
+
+/*function tick() {
+  ReactDOM.render(
+    <Clock date={new Date()} />,
+    document.getElementById('root')
+  );
+}
+
+setInterval(tick, 1000);*/

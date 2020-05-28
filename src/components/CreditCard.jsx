@@ -1,23 +1,31 @@
-/*import React from 'react';
+import React from 'react';
 import './CreditCard.css';
 
 const CreditCard = (props) => {
-  const { type, number, expirationMonth, expirationYear, bank, owner, bgColor, color } = props;
+  const {
+    type,
+    number,
+    expirationMonth,
+    expirationYear,
+    bank,
+    owner,
+    bgColor,
+    color,
+  } = props;
 
   return (
-    <div className="credit-card-container" style={
-      { BackgroundColor: `hex(${bgColor})` }
-      { TextColor: `hex(${color})` }
-    }>
+    <div
+      className="credit-card-container"
+      style={{ BackgroundColor: `${bgColor}` }}
+    >
+      <div>{type}</div>
+      <div>{number}</div>
       <div>
-        {type}
-        {number}
-        Expires {expirationMonth}/{expirationYear}{bank}
-        {owner}
-
+        Expires {expirationMonth}/{expirationYear} {bank}
       </div>
+      <div>{owner}</div>
     </div>
   );
 };
 
-export default CreditCard;*/
+export default CreditCard;
